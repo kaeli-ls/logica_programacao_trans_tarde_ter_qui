@@ -1,16 +1,19 @@
-﻿
+﻿//Solicitar os numeros para fazer calculo
 Console.WriteLine("Digte um numero: ");
 int n1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Digite um numero: ");
 int n2 = int.Parse(Console.ReadLine());
 
+//Limpar o terminal
 Console.Clear();
 
+//Calcular
 Console.WriteLine("Vamos calcular as seguintes operações: +, x, - e \\ ");
 Console.WriteLine($"{n1} + {n2} = {n1 + n2}");
 Console.WriteLine($"{n1} x {n2} = {n1 * n2}");
 Console.WriteLine($"{n1} - {n2} = {n1 - n2}");
 
+//Verificando se está sendo dividido por 0
 if (n2 != 0)
 {
     Console.WriteLine($"{n1} / {n2} = {n1 / n2}");
