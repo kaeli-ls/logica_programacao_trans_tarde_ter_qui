@@ -13,15 +13,16 @@ float media = (nota1 + nota2 + nota3) / 3;
 
 Console.WriteLine($"Sua média é de {media}");
 
+//Verificando a média e mostrando o status do aluno
 if (media >= 7)
 {
     Console.WriteLine("Aprovado!!");
 }
-if (media >= 4)
+else if (media >= 4 && media <= 6.9)
 {
     Console.WriteLine("Em recuperação...");
 }
-if (media <= 4)
+else
 {
     Console.WriteLine("Reprovado...");
 }
