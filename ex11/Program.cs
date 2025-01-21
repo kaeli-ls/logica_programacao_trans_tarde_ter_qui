@@ -3,11 +3,13 @@ Crie um programa que peça ao usuário para inserir um número inteiro positivo 
 exibindo cada número. O programa deve implementar essa contagem usando while, do while e for. 
 */
 
-
-//usando While <---------------->
+//Solicitando um numero ao usuario e convertendo para Int
 Console.WriteLine("Digite um numero positivo: ");
-Console.WriteLine("------Usando WHILE------>");
 int numero = Convert.ToInt32(Console.ReadLine());
+
+
+//Criando o programa de contagem com While <---------------->
+Console.WriteLine("------Usando WHILE------>");
 int contador_while = 1;
 
 while (contador_while <= numero)
@@ -17,7 +19,7 @@ while (contador_while <= numero)
 }
 
 
-//usando Do <---------------->
+//Criando o programa de contagem com Do <---------------->
 Console.WriteLine("<------Usando DO------>");
 int contador_do = 1;
 
@@ -29,7 +31,7 @@ do
 while (contador_do <= numero) ;
 
 
-//usando for <---------------->
+//Criando o programa de contagem com For <---------------->
 Console.WriteLine("<------Usando FOR------>");
 
 for (int contador = 1; contador <= numero; contador++)
